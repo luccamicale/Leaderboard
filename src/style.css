@@ -1,0 +1,70 @@
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+#scoretitle-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.refresh-button {
+  height: 20px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+#form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+#form {
+  margin-left: 20%;
+}
+
+.title {
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.score-title {
+  margin-left: 95px;
+}
+
+.player-name {
+  width: 290px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.player-score {
+  width: 290px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  width: 70px;
+  height: 20px;
+  justify-items: flex-end;
+}
+
+#button {
+  margin-left: 76%;
+}
+
+#footer {
+  height: 15px;
+  background-color: dimgrey;
+  margin-top: 9%;
+}
+
+#score-list {
+  width: 400px;
+  height: 270px;
+  background-color: rgb(185, 184, 184);
+  margin-left: 21%;
+  border: 1px solid;
+}
