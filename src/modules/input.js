@@ -6,7 +6,7 @@ document.getElementById('submit-button').addEventListener('click', () => {
     score: input2.value,
   };
 
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/22277/scores/', {
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/2727/scores/', {
     method: 'POST',
     body: JSON.stringify(data),
     headers: { 'Content-type': 'application/json; charset=UTF-8' },
