@@ -9,7 +9,7 @@ const showRefresh = (e) => {
 };
 
 const remov = async () => {
-  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/2225/scores/')
+  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/22277/scores/')
   .then((response) => response.json())
   .then((json) => showRefresh(json))
   .catch((err) => console.log(err));
