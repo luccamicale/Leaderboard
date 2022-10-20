@@ -1,3 +1,4 @@
+
 #content {
   display: flex;
   flex-direction: row;
@@ -10,8 +11,16 @@
 
 .refresh-button {
   height: 20px;
+  width: 90px;
   margin-top: 25px;
-  margin-left: 20px;
+  border: 2px solid dimgrey;
+  box-shadow: dimgrey 5px 5px 2px;
+  background-color: inherit !important;
+  margin-left: auto;
+  font-family: inherit;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
 }
 
 #form-input {
@@ -49,6 +58,14 @@
   width: 70px;
   height: 20px;
   justify-items: flex-end;
+  border: 2px solid dimgrey;
+  box-shadow: dimgrey 5px 5px 2px;
+  background-color: inherit !important;
+  margin-left: auto;
+  font-family: inherit;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
 }
 
 #button {
@@ -57,13 +74,25 @@
 
 #footer {
   height: 15px;
-  background-color: dimgrey;
-  margin-top: 9%;
+  margin-top: 15%;
+  border: 2px solid dimgrey;
+  box-shadow: dimgrey 5px 5px 2px;
+  background-color: inherit !important;
 }
 
-#score-list {
+li {
+  list-style-type: none;
+  height: 30px;
   width: 400px;
-  height: 270px;
-  margin-left: 21%;
-  border: 1px solid;
+  margin-left: 14%;
+  border: 1px solid darkgray;
+  box-shadow: dimgrey 7px 7px 2px;
+}
+
+li:nth-child(1n) {
+  background-color: white;
+}
+
+li:nth-child(2n) {
+  background-color: lightgray;
 }
